@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.geotools:gt-imageio-ext-gdal:15-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.geotools/gt-imageio-ext-gdal/15-SNAPSHOT/223148d09a24248287b70e8d849cdcf29c8db6ed/gt-imageio-ext-gdal-15-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.geotools/gt-imageio-ext-gdal/15-SNAPSHOT/7c9e7abb3fa909edd2305acc3d33bfb934496087/gt-imageio-ext-gdal-15-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

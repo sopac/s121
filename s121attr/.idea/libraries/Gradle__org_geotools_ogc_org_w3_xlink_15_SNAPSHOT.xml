@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.geotools.ogc:org.w3.xlink:15-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.geotools.ogc/org.w3.xlink/15-SNAPSHOT/b74750754ead27c03d4ca4d1fbc32a70d15806df/org.w3.xlink-15-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.geotools.ogc/org.w3.xlink/15-SNAPSHOT/7b0f65f607bcf5a49e4e33258a0379f75cc2fcc/org.w3.xlink-15-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

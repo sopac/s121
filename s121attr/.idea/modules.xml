@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/s121attr.iml" filepath="$PROJECT_DIR$/.idea/modules/s121attr.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/s121attr_main.iml" filepath="$PROJECT_DIR$/.idea/modules/s121attr_main.iml" group="s121attr" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/s121attr_test.iml" filepath="$PROJECT_DIR$/.idea/modules/s121attr_test.iml" group="s121attr" />
+    </modules>
+  </component>
+</project>

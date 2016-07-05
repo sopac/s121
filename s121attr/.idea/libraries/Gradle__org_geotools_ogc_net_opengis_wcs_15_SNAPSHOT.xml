@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.geotools.ogc:net.opengis.wcs:15-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.geotools.ogc/net.opengis.wcs/15-SNAPSHOT/7744054cf57d3fe01e56f202e2c819357bfdd00e/net.opengis.wcs-15-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.geotools.ogc/net.opengis.wcs/15-SNAPSHOT/fccbfc2f131c53c1e0b43621dea03d288fd89089/net.opengis.wcs-15-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

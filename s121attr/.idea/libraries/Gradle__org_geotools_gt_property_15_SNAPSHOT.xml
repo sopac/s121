@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.geotools:gt-property:15-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.geotools/gt-property/15-SNAPSHOT/9c04f7b43f7d4c6007634896e1de242e877e60c/gt-property-15-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.geotools/gt-property/15-SNAPSHOT/3a562e2559ab5c4b2b02582899c326f59787a5c8/gt-property-15-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

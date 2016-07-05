@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="343.0" prefWidth="808.0" xmlns="http://javafx.com/javafx/8.0.92" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sopac.Controller">
+   <children>
+      <Label layoutX="376.0" layoutY="14.0" prefHeight="45.0" prefWidth="412.0" text="S121 Attribution Tool" textAlignment="RIGHT">
+         <font>
+            <Font size="37.0" />
+         </font>
+      </Label>
+      <ImageView cache="true" fitHeight="68.0" fitWidth="163.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/home/sachin/Dropbox/logo_trans.png" />
+         </image>
+      </ImageView>
+      <Line endX="670.0" layoutX="115.0" layoutY="93.0" startX="-100.0" />
+      <Label layoutX="51.0" layoutY="120.0" text="Folder Containing Shape Files : " />
+      <TextField fx:id="textPath" layoutX="266.0" layoutY="115.0" prefHeight="26.0" prefWidth="443.0" />
+      <Button fx:id="btnBrowse" layoutX="725.0" layoutY="115.0" mnemonicParsing="false" onAction="#browse" text="..." />
+      <Label layoutX="166.0" layoutY="167.0" prefHeight="16.0" prefWidth="91.0" text="S121 Profile : " textAlignment="RIGHT" />
+      <ComboBox fx:id="comboProfile" layoutX="266.0" layoutY="162.0" prefHeight="26.0" prefWidth="248.0" />
+      <Label layoutX="403.0" layoutY="66.0" prefHeight="16.0" prefWidth="367.0" text="Maritime Boundaries and Limits Exchange Specification" />
+      <CheckBox layoutX="266.0" layoutY="209.0" mnemonicParsing="false" text="Delete Existing and Matching Attributes" />
+      <CheckBox layoutX="266.0" layoutY="251.0" mnemonicParsing="false" text="Backup Source Shape Files" />
+      <Line endX="670.0" layoutX="115.0" layoutY="290.0" startX="-100.0" />
+      <Button fx:id="btnProcess" defaultButton="true" layoutX="675.0" layoutY="301.0" mnemonicParsing="false" onAction="#process" text="Process" />
+      <Button fx:id="btnClose" layoutX="755.0" layoutY="301.0" mnemonicParsing="false" onAction="#close" prefHeight="26.0" prefWidth="30.0" text="X" />
+      <Label layoutX="15.0" layoutY="306.0" text="2016, Geoscience Division, SPC" />
+   </children>
+</Pane>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.geotools:gt-brewer:15-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.geotools/gt-brewer/15-SNAPSHOT/f91d7562e040932312d35a9c38ed82f03cb7dd70/gt-brewer-15-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.geotools/gt-brewer/15-SNAPSHOT/85c8528f332c1900616b2316dc995b43e42d2362/gt-brewer-15-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

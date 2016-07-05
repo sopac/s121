@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.geotools.xsd:gt-xsd-gml2:15-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.geotools.xsd/gt-xsd-gml2/15-SNAPSHOT/f8042cccdb7197552b103ab64b86b099434ae4c8/gt-xsd-gml2-15-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.geotools.xsd/gt-xsd-gml2/15-SNAPSHOT/43df241798646f239c3d01cdf50dcda2c92bbcaf/gt-xsd-gml2-15-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

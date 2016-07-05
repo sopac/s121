@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.geotools:gt-ogr-jni:15-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.geotools/gt-ogr-jni/15-SNAPSHOT/bd977fe68692355e6e4eca848d5c60db53503675/gt-ogr-jni-15-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.geotools/gt-ogr-jni/15-SNAPSHOT/a72a77a436ade4fd0744fc4fa4afa82185b19086/gt-ogr-jni-15-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

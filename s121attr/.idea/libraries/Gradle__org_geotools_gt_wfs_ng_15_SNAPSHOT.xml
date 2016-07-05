@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.geotools:gt-wfs-ng:15-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.geotools/gt-wfs-ng/15-SNAPSHOT/a1b6b10f4f0f17d7a266076ecf72480aa07eb752/gt-wfs-ng-15-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.geotools/gt-wfs-ng/15-SNAPSHOT/2db2094474dc9ef8c5f1a4f44f9f609595e500f6/gt-wfs-ng-15-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

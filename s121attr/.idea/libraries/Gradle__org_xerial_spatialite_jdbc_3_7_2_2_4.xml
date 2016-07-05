@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: org.xerial:spatialite-jdbc:3.7.2-2.4">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/Could not find org.xerial:spatialite-jdbc:3.7.2-2.4." />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.xerial/spatialite-jdbc/3.7.2-2.4/8287041c652fdedeac3184c7e1e35781ad27fd94/spatialite-jdbc-3.7.2-2.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

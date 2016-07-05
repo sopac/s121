@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.geotools:gt-mbtiles:15-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.geotools/gt-mbtiles/15-SNAPSHOT/c7ce8b00680e5ec2029ba16976da05e033f0462f/gt-mbtiles-15-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.geotools/gt-mbtiles/15-SNAPSHOT/3f10c9896b155f1188ecd4b20ef462e8149a0cb7/gt-mbtiles-15-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

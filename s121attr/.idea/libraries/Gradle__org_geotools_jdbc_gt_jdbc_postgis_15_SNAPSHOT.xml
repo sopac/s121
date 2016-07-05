@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.geotools.jdbc:gt-jdbc-postgis:15-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.geotools.jdbc/gt-jdbc-postgis/15-SNAPSHOT/71bee38ec61b8f02941922e0bb0a96c2a8b089df/gt-jdbc-postgis-15-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.geotools.jdbc/gt-jdbc-postgis/15-SNAPSHOT/8e5f8d814706b4b3b0a1663c102926fe326a4118/gt-jdbc-postgis-15-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
