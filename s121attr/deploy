@@ -1,0 +1,2 @@
+gradle shadowJar
+cp build/libs/s121attr-1.0-SNAPSHOT-all.jar ~/Projects/s121/s121attrFX/lib/

@@ -13,9 +13,10 @@ public class Main {
         println "S121 Attribution Library @ " + new Date()
         def m = new Main()
         String folder = "/home/sachin/Projects/maritime_boundaries_FFA_0_360/members/"
-        //m.process(folder)
+        String output = "/home/sachin/tmp/"
+        m.process(folder, output, "Autodetect", false)
         //m.fields(folder)
-        m.test()
+        //m.test()
         //Writers.list().each {println it.getClass().name}
         println "Finished."
     }
@@ -113,23 +114,22 @@ public class Main {
     }
 
 
-    public void process(String folder) { //act on output folder above
+    public void process(String folder, String outputFolder, String profile, boolean deleteExisiting) {
         try {
             new File(folder).eachFile(FileType.FILES) { f ->
                 if (f.getName().toLowerCase().endsWith(".shp")) {
-                    //println f.getName()
+                    String fn = f.getName().toUpperCase()
+                    //if fn contains profileCategoryBaseline add baseline attrs
+                    //if fn contains profileCategoryLimits add limits attrs
+                    //else add boundaries
 
-                    def shp = new Shapefile(f.toString())
-                    def schema = shp.getSchema()
-                    println schema.toString()
-                    def ns = schema.addField(new Field("sachin_test", "String"), schema.getName())
-                    shp.getFeatures().add()
-                    shp.setSchema(ns)
-                    shp.update()
-                    //println shp.count()
-                    //shp.getFeatures().each { ft ->
-                    //println ft.getAttributes().keySet()
-                    //}
+                    //update attr:
+                    //profileCategory Long form
+                    //nation, nation
+                    //objectname - filename trunc
+                    //copy latlong ddms etc.
+
+                    //output to outputFolder
 
                 }
             }
