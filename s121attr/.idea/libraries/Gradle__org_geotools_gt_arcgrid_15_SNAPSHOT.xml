@@ -1,11 +1,11 @@
 <component name="libraryTable">
   <library name="Gradle: org.geotools:gt-arcgrid:15-SNAPSHOT">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.geotools/gt-arcgrid/15-SNAPSHOT/628d7ae5bc132a5da883c57e0076db4ae508763/gt-arcgrid-15-SNAPSHOT.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.geotools/gt-arcgrid/15-SNAPSHOT/bfd77c0696480d8ab54bd3cea1cea54a7afe5c96/gt-arcgrid-15-SNAPSHOT.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.geotools/gt-arcgrid/15-SNAPSHOT/88422ca0ca1537445303f1fdcb445dd32dc38fdb/gt-arcgrid-15-SNAPSHOT-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.geotools/gt-arcgrid/15-SNAPSHOT/23c8848251dbe7633b84ff7d85180d41814d28b0/gt-arcgrid-15-SNAPSHOT-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

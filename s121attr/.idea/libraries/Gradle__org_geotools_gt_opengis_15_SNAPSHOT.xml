@@ -1,11 +1,11 @@
 <component name="libraryTable">
   <library name="Gradle: org.geotools:gt-opengis:15-SNAPSHOT">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.geotools/gt-opengis/15-SNAPSHOT/3206d5d0c6a9b87953946f8b487ca046c785fa9e/gt-opengis-15-SNAPSHOT.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.geotools/gt-opengis/15-SNAPSHOT/b0abaf57f608aa4a1eef10ff1082dcf69fe4a100/gt-opengis-15-SNAPSHOT.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.geotools/gt-opengis/15-SNAPSHOT/94ebd4c345a638ffeb948e1b10e4bd5ccfa59038/gt-opengis-15-SNAPSHOT-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.geotools/gt-opengis/15-SNAPSHOT/db36539cfb2f35e9318c0f17bf463f1da06b75c5/gt-opengis-15-SNAPSHOT-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

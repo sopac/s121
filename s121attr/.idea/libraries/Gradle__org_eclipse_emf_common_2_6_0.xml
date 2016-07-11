@@ -1,7 +1,6 @@
 <component name="libraryTable">
   <library name="Gradle: org.eclipse.emf:common:2.6.0">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/Could not find org.eclipse.emf:common:2.6.0." />
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.emf/common/2.6.0/72fd98856c4044faab7628950f9c5b217b611590/common-2.6.0.jar!/" />
     </CLASSES>
     <JAVADOC />

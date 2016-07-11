@@ -1,11 +1,11 @@
 <component name="libraryTable">
   <library name="Gradle: it.geosolutions.jaiext.bandmerge:jt-bandmerge:1.0.9">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.bandmerge/jt-bandmerge/1.0.9/77a1dc85691d79d66ebc03cdf192bd6101dc9d4b/jt-bandmerge-1.0.9.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.bandmerge/jt-bandmerge/1.0.9/90e08aebb818afa96ee2d1c6deb6e2daf21329a/jt-bandmerge-1.0.9.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.bandmerge/jt-bandmerge/1.0.9/1a68806d5768c833c1205a138ec0bbeeda976227/jt-bandmerge-1.0.9-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.bandmerge/jt-bandmerge/1.0.9/f50bd319bf413c92f4ac859a7709dc1dc410fd4/jt-bandmerge-1.0.9-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

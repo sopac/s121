@@ -1,11 +1,11 @@
 <component name="libraryTable">
   <library name="Gradle: org.geotools:gt-process-geometry:15-SNAPSHOT">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.geotools/gt-process-geometry/15-SNAPSHOT/a481ec3bc429f4c9bcd3427ab1fb95b1ad5ceeea/gt-process-geometry-15-SNAPSHOT.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.geotools/gt-process-geometry/15-SNAPSHOT/42f7b149f94ceab30ce6290552775ab59fea492e/gt-process-geometry-15-SNAPSHOT.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.geotools/gt-process-geometry/15-SNAPSHOT/62603f42d5fb9be6d3d1861be00171891d7025b9/gt-process-geometry-15-SNAPSHOT-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.geotools/gt-process-geometry/15-SNAPSHOT/424b43926c1120c1b6f858a2d55d9ca8ece66852/gt-process-geometry-15-SNAPSHOT-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

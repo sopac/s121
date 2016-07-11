@@ -11,7 +11,7 @@
 <?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="343.0" prefWidth="808.0" xmlns="http://javafx.com/javafx/8.0.92" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sopac.Controller">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="336.0" prefWidth="808.0" xmlns="http://javafx.com/javafx/8.0.92" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sopac.Controller">
    <children>
       <Label layoutX="376.0" layoutY="14.0" prefHeight="45.0" prefWidth="412.0" text="S121 Attribution Tool" textAlignment="RIGHT">
          <font>
@@ -24,21 +24,23 @@
          </image>
       </ImageView>
       <Line endX="670.0" layoutX="115.0" layoutY="93.0" startX="-100.0" />
-      <Label layoutX="51.0" layoutY="120.0" text="Folder Containing Shape Files : " />
+      <Label alignment="CENTER_RIGHT" layoutX="38.0" layoutY="120.0" prefHeight="16.0" prefWidth="212.0" text="Folder Containing Shape Files : " textAlignment="RIGHT" />
       <TextField fx:id="textPath" layoutX="266.0" layoutY="115.0" prefHeight="26.0" prefWidth="443.0" />
-      <Button fx:id="btnBrowse" layoutX="725.0" layoutY="115.0" mnemonicParsing="false" onAction="#browse" text="..." />
-      <Label layoutX="166.0" layoutY="167.0" prefHeight="16.0" prefWidth="91.0" text="S121 Profile : " textAlignment="RIGHT" />
-      <ComboBox fx:id="comboProfile" layoutX="266.0" layoutY="162.0" prefHeight="26.0" prefWidth="248.0" />
+      <Button fx:id="btnBrowse1" layoutX="725.0" layoutY="115.0" mnemonicParsing="false" onAction="#browse1" text="..." />
+      <Label alignment="CENTER_RIGHT" layoutX="45.0" layoutY="195.0" prefHeight="16.0" prefWidth="205.0" text="S121 Profile : " textAlignment="RIGHT" />
+      <ComboBox fx:id="comboProfile" layoutX="264.0" layoutY="190.0" prefHeight="26.0" prefWidth="248.0" />
       <Label layoutX="403.0" layoutY="66.0" prefHeight="16.0" prefWidth="367.0" text="Maritime Boundaries and Limits Exchange Specification" />
-      <CheckBox fx:id="checkDelete" layoutX="266.0" layoutY="209.0" mnemonicParsing="false" text="Delete Existing and Matching Attributes" />
-      <CheckBox fx:id="checkBackup" layoutX="266.0" layoutY="251.0" mnemonicParsing="false" text="Backup Source Shape Files" />
-      <Line endX="670.0" layoutX="115.0" layoutY="290.0" startX="-100.0" />
-      <Button fx:id="btnProcess" defaultButton="true" layoutX="599.0" layoutY="301.0" mnemonicParsing="false" onAction="#process" prefHeight="26.0" prefWidth="110.0" text="Process">
+      <CheckBox fx:id="checkDelete" layoutX="264.0" layoutY="237.0" mnemonicParsing="false" text="Delete Existing and Matching Attributes" />
+      <Line endX="670.0" layoutX="120.0" layoutY="273.0" startX="-100.0" />
+      <Button fx:id="btnProcess" defaultButton="true" layoutX="603.0" layoutY="289.0" mnemonicParsing="false" onAction="#process" prefHeight="26.0" prefWidth="110.0" text="Process">
          <font>
             <Font name="System Bold" size="13.0" />
          </font></Button>
-      <Button fx:id="btnClose" layoutX="717.0" layoutY="301.0" mnemonicParsing="false" onAction="#close" prefHeight="26.0" prefWidth="68.0" text="Close" />
-      <Label layoutX="15.0" layoutY="306.0" text="2016, Geoscience Division, SPC" />
-      <Button fx:id="btnHelp" layoutX="519.0" layoutY="162.0" mnemonicParsing="false" onAction="#help" text="?" />
+      <Button fx:id="btnClose" layoutX="721.0" layoutY="289.0" mnemonicParsing="false" onAction="#close" prefHeight="26.0" prefWidth="68.0" text="Close" />
+      <Label layoutX="19.0" layoutY="294.0" text="© 2016, Geoscience Division, Pacific Community (SPC)" />
+      <Button fx:id="btnHelp" layoutX="517.0" layoutY="190.0" mnemonicParsing="false" onAction="#help" text="?" />
+      <Label alignment="CENTER_RIGHT" layoutX="45.0" layoutY="157.0" prefHeight="16.0" prefWidth="205.0" text="Folder for GeoJSON Output : " textAlignment="RIGHT" />
+      <TextField fx:id="textOutput" layoutX="266.0" layoutY="152.0" prefHeight="26.0" prefWidth="443.0" />
+      <Button fx:id="btnBrowse2" layoutX="725.0" layoutY="152.0" mnemonicParsing="false" onAction="#browse2" text="..." />
    </children>
 </Pane>

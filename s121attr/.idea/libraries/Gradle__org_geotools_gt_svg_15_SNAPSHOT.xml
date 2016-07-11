@@ -1,11 +1,11 @@
 <component name="libraryTable">
   <library name="Gradle: org.geotools:gt-svg:15-SNAPSHOT">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.geotools/gt-svg/15-SNAPSHOT/59df53d27ec3a006ece2918f6c0e5acfe23e2f76/gt-svg-15-SNAPSHOT.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.geotools/gt-svg/15-SNAPSHOT/de7d590b972c4d69012a2ff055273d7c028b2417/gt-svg-15-SNAPSHOT.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.geotools/gt-svg/15-SNAPSHOT/82dd32e5b029761caa6d09cc23d0437cc1a1be89/gt-svg-15-SNAPSHOT-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.geotools/gt-svg/15-SNAPSHOT/8aa2781325c393e28968bf878e30e142091f2c37/gt-svg-15-SNAPSHOT-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

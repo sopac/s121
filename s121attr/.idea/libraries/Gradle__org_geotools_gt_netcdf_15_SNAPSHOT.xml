@@ -1,11 +1,11 @@
 <component name="libraryTable">
   <library name="Gradle: org.geotools:gt-netcdf:15-SNAPSHOT">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.geotools/gt-netcdf/15-SNAPSHOT/1557793f4272f146023513075ceea30a114f8943/gt-netcdf-15-SNAPSHOT.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.geotools/gt-netcdf/15-SNAPSHOT/a29cd4c573f6c44254533e347ab847e5b140b7c1/gt-netcdf-15-SNAPSHOT.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.geotools/gt-netcdf/15-SNAPSHOT/97dac677ea9bb9f870674097894fa974b5fc56e3/gt-netcdf-15-SNAPSHOT-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.geotools/gt-netcdf/15-SNAPSHOT/62f96f95906c3f9dca459ef8380e500a959a1424/gt-netcdf-15-SNAPSHOT-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

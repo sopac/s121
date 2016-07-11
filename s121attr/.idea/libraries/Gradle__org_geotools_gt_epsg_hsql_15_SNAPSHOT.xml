@@ -1,11 +1,11 @@
 <component name="libraryTable">
   <library name="Gradle: org.geotools:gt-epsg-hsql:15-SNAPSHOT">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.geotools/gt-epsg-hsql/15-SNAPSHOT/bed7e060a7029a1cfa5b4d1304c5ee1d54d6906d/gt-epsg-hsql-15-SNAPSHOT.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.geotools/gt-epsg-hsql/15-SNAPSHOT/63e70abc9f88b3416d7d9edeca506ec124ae92a4/gt-epsg-hsql-15-SNAPSHOT.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.geotools/gt-epsg-hsql/15-SNAPSHOT/39111c0ff2e35e75eeab2ac1359cbfa82600da89/gt-epsg-hsql-15-SNAPSHOT-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.geotools/gt-epsg-hsql/15-SNAPSHOT/df12b835e27ea7bcb850abe09275430f489585a5/gt-epsg-hsql-15-SNAPSHOT-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

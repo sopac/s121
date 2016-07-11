@@ -1,11 +1,11 @@
 <component name="libraryTable">
   <library name="Gradle: it.geosolutions.jaiext.piecewise:jt-piecewise:1.0.9">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.piecewise/jt-piecewise/1.0.9/6ddd4bc5307c97ffabaef15d29e83bcd7b8f3856/jt-piecewise-1.0.9.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.piecewise/jt-piecewise/1.0.9/7bb07ec44821b39d22c37fff5d5c88fbc4222dab/jt-piecewise-1.0.9.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.piecewise/jt-piecewise/1.0.9/803bd640326f2540db5fed89d9260e0ed27f42ed/jt-piecewise-1.0.9-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.piecewise/jt-piecewise/1.0.9/b12b249b4f6fbd7d8d373368c6275bc76686c91e/jt-piecewise-1.0.9-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

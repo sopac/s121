@@ -1,11 +1,11 @@
 <component name="libraryTable">
   <library name="Gradle: org.geotools.jdbc:gt-jdbc-h2:15-SNAPSHOT">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.geotools.jdbc/gt-jdbc-h2/15-SNAPSHOT/bd945f7abf857746d7a47348abd659e858c2cd97/gt-jdbc-h2-15-SNAPSHOT.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.geotools.jdbc/gt-jdbc-h2/15-SNAPSHOT/c0eb7ccfac6e7ce2a1babecc5de7b27137913c06/gt-jdbc-h2-15-SNAPSHOT.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.geotools.jdbc/gt-jdbc-h2/15-SNAPSHOT/2a94b66f7eb4d14eb202c88b07220084855ccb2e/gt-jdbc-h2-15-SNAPSHOT-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.geotools.jdbc/gt-jdbc-h2/15-SNAPSHOT/920bf9d9d446fcd805aea41ad6796f4b1f4b4a7/gt-jdbc-h2-15-SNAPSHOT-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

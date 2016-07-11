@@ -1,11 +1,11 @@
 <component name="libraryTable">
   <library name="Gradle: org.geotools:gt-geobuf:15-SNAPSHOT">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.geotools/gt-geobuf/15-SNAPSHOT/3fc2cbbcea744cc57c5639b8f64a29c8f67b7a1c/gt-geobuf-15-SNAPSHOT.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.geotools/gt-geobuf/15-SNAPSHOT/c719fca0bc442b624ff423e742515eb5c4f81c82/gt-geobuf-15-SNAPSHOT.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.geotools/gt-geobuf/15-SNAPSHOT/182a836ce971847ddea4189a8648d7837f7ab029/gt-geobuf-15-SNAPSHOT-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.geotools/gt-geobuf/15-SNAPSHOT/e3635f73ebbe42af465caf27764508ea8eb2de1e/gt-geobuf-15-SNAPSHOT-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

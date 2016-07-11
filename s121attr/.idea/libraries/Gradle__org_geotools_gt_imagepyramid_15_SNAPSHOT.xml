@@ -1,11 +1,11 @@
 <component name="libraryTable">
   <library name="Gradle: org.geotools:gt-imagepyramid:15-SNAPSHOT">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.geotools/gt-imagepyramid/15-SNAPSHOT/4d6c1d15cc453583c2d3d87389973dc051800da1/gt-imagepyramid-15-SNAPSHOT.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.geotools/gt-imagepyramid/15-SNAPSHOT/36569c736d240358373bc5a85c24b2680ed83f40/gt-imagepyramid-15-SNAPSHOT.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.geotools/gt-imagepyramid/15-SNAPSHOT/5439fc9b429e0ce9d527284a176b6621e9bb3206/gt-imagepyramid-15-SNAPSHOT-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.geotools/gt-imagepyramid/15-SNAPSHOT/4b47dc8c835aac34ca898e1451d753e83e00abad/gt-imagepyramid-15-SNAPSHOT-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

@@ -1,11 +1,11 @@
 <component name="libraryTable">
   <library name="Gradle: org.geotools.jdbc:gt-jdbc-mysql:15-SNAPSHOT">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.geotools.jdbc/gt-jdbc-mysql/15-SNAPSHOT/376092202925cb54da3aa6e1596e1291af5ba9e/gt-jdbc-mysql-15-SNAPSHOT.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.geotools.jdbc/gt-jdbc-mysql/15-SNAPSHOT/19269671fc9f91c9776ef2b2b8d470a0bc2b47ec/gt-jdbc-mysql-15-SNAPSHOT.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.geotools.jdbc/gt-jdbc-mysql/15-SNAPSHOT/369c27c6d42a7ee627567b7397b73e3a147b701f/gt-jdbc-mysql-15-SNAPSHOT-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.geotools.jdbc/gt-jdbc-mysql/15-SNAPSHOT/760c8bba9332910a03fde8d20eea11a49046d509/gt-jdbc-mysql-15-SNAPSHOT-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

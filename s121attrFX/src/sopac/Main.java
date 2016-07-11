@@ -28,7 +28,7 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("tool.fxml"));
         primaryStage.setTitle("S121 Attribution Tool - Geoscience Division, SPC");
-        primaryStage.setScene(new Scene(root, 800, 345));
+        primaryStage.setScene(new Scene(root, 800, 330));
         primaryStage.setResizable(false);
         primaryStage.show();
 

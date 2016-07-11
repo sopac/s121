@@ -1,11 +1,11 @@
 <component name="libraryTable">
   <library name="Gradle: org.geotools:gt-imagemosaic:15-SNAPSHOT">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.geotools/gt-imagemosaic/15-SNAPSHOT/22e9344527c21fe3cd7a6319f59f37af58219541/gt-imagemosaic-15-SNAPSHOT.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.geotools/gt-imagemosaic/15-SNAPSHOT/f58d3388cd48980154029945d179fefc9dcf7d97/gt-imagemosaic-15-SNAPSHOT.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.geotools/gt-imagemosaic/15-SNAPSHOT/2716c5c986cd03debf354b363ea6580a6253bb91/gt-imagemosaic-15-SNAPSHOT-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.geotools/gt-imagemosaic/15-SNAPSHOT/99068fe70f7593dc5f483c4251545d490b91eb5/gt-imagemosaic-15-SNAPSHOT-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

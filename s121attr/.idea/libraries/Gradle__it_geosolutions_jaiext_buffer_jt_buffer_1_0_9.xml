@@ -1,11 +1,11 @@
 <component name="libraryTable">
   <library name="Gradle: it.geosolutions.jaiext.buffer:jt-buffer:1.0.9">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.buffer/jt-buffer/1.0.9/7431042b38a6fbde3044e58ae007b643cfe36203/jt-buffer-1.0.9.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.buffer/jt-buffer/1.0.9/3dfacb9d8e052c8f805c22403c99e3f5539b0e4/jt-buffer-1.0.9.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.buffer/jt-buffer/1.0.9/5c5d0ceb8f9e3857d3b4e56c80815d07c477b531/jt-buffer-1.0.9-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.buffer/jt-buffer/1.0.9/62e07c1c456d007a90157b969e8a38b199ec9785/jt-buffer-1.0.9-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

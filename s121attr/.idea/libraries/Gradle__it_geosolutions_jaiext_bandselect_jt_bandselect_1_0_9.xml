@@ -1,11 +1,11 @@
 <component name="libraryTable">
   <library name="Gradle: it.geosolutions.jaiext.bandselect:jt-bandselect:1.0.9">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.bandselect/jt-bandselect/1.0.9/11257d70c29ee3a0cda10705a3fc6c41b50c1f95/jt-bandselect-1.0.9.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.bandselect/jt-bandselect/1.0.9/e462115683cbe335184bf277d1c6d1e27c381069/jt-bandselect-1.0.9.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.bandselect/jt-bandselect/1.0.9/3e88003a2a0a2a20f3ff4bb3be78448ff8f3c8dd/jt-bandselect-1.0.9-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.bandselect/jt-bandselect/1.0.9/c73407a83cc9200ba2ad66ed3b525b0eaa182c30/jt-bandselect-1.0.9-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

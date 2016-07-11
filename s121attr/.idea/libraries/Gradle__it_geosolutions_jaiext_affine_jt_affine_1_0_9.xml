@@ -1,11 +1,11 @@
 <component name="libraryTable">
   <library name="Gradle: it.geosolutions.jaiext.affine:jt-affine:1.0.9">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.affine/jt-affine/1.0.9/e8b1713995603127a720eb86684bf401ba218035/jt-affine-1.0.9.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.affine/jt-affine/1.0.9/1f95fbae8bf57e7a22d0d537a16c718fb70e0941/jt-affine-1.0.9.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.affine/jt-affine/1.0.9/12d57c118fde23ac392b21db2aff3d01faa97d92/jt-affine-1.0.9-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/it.geosolutions.jaiext.affine/jt-affine/1.0.9/dd61fe51b121ab8e6edcbc7295b3428d23633ced/jt-affine-1.0.9-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

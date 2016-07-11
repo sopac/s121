@@ -1,11 +1,11 @@
 <component name="libraryTable">
   <library name="Gradle: org.geotools:gt-wms:15-SNAPSHOT">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.geotools/gt-wms/15-SNAPSHOT/391b7d1257553dda3ae738a0f0a9ca5035a339e5/gt-wms-15-SNAPSHOT.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.geotools/gt-wms/15-SNAPSHOT/5f18f119021aa4a2c37d4910b583823d265d6096/gt-wms-15-SNAPSHOT.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.geotools/gt-wms/15-SNAPSHOT/d8ed9ca02491bfbed635c3cd3b45711ae9875891/gt-wms-15-SNAPSHOT-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.geotools/gt-wms/15-SNAPSHOT/6648a0a50feeb19e9833cc56872ff6b80b94a291/gt-wms-15-SNAPSHOT-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

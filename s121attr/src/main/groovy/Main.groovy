@@ -1,38 +1,26 @@
-import geoscript.feature.Feature
 import geoscript.feature.Field
 import geoscript.feature.Schema
 import geoscript.layer.*
 import geoscript.layer.Shapefile
 import geoscript.layer.io.GeoJSONWriter
-import geoscript.layer.io.GmlWriter
-import geoscript.layer.io.KmlWriter
-import geoscript.layer.io.Writers
 import geoscript.proj.Projection
 import groovy.io.FileType
+import org.sopac.Profiles
 
 public class Main {
 
     public static void main(String[] args) {
-        println "Sachindra Singh @ " + new Date()
+        println "S121 Attribution Library @ " + new Date()
         def m = new Main()
-        String folder = "/home/sachin/Projects/FFA_Data_Sachin/"
+        String folder = "/home/sachin/Projects/maritime_boundaries_FFA_0_360/members/"
         //m.process(folder)
         //m.fields(folder)
         m.test()
-        //m.testGML()
         //Writers.list().each {println it.getClass().name}
         println "Finished."
     }
 
-    public void testGML() {
-        def shp = new Shapefile("/home/sachin/tmp/WORLD_BORDERS.shp")
-        shp.setProj(new Projection("EPSG:4326"))
-        GmlWriter writer = new GmlWriter()
-        //writer.write(shp, new File("/home/sachin/world.gml"))
-        println writer.write(shp, 3.2, true, true, true, "http://www.opengis.net/gml/3.2")
-        //Layer l = (Layer) shp
-        //println writer.write(shp)
-    }
+
 
 
     public void test() {
@@ -45,14 +33,21 @@ public class Main {
             f.name = f.name.toLowerCase()
         }
         //add new fields
-        fields.add(new Field("sachin", "String"))
-        Schema schema = new Schema(shp.getName() + "_NEW", fields) //filename, original fields
+        //fields.add(new Field("sachin", "String"))
+        //fields.add(new Field("fili", "String"))
+
+        def profiles = new Profiles()
+        profiles.baseline.forEach { attr ->
+            fields.add(new Field(attr, "String"))
+        }
+
+        //Schema schema = new Schema(shp.getName() + "_NEW", fields) //filename, original fields
+        Schema schema = new Schema(shp.getName(), fields)
 
         //output layer // ----> create GML layer here to counter 10 character shp attribute length limit
         //Layer layer = shp.workspace.create(schema)
-        Layer layer = new Layer(shp.getName() + "_NEW", schema)
+        Layer layer = new Layer(shp.getName(), schema)
         layer.setProj(new Projection("EPSG:4326"))
-
 
         // Copy all features to the new Layer
         layer.add(shp.features.collect { f ->
@@ -67,19 +62,21 @@ public class Main {
             schema.feature(attributes, f.id)
         })
 
-        //update new added fields
+        //update newly added fields
         layer.features.each { f ->
-            f.set("sachin", "hello")
+            //f.set("sachin", "hello")
+            //f.set("fili", "")
+            profiles.baseline.forEach { attr ->
+                f.set(attr, "")
+            }
         }
-
-
 
         layer.update()
 
-        //output GML
-        new File("/home/sachin/world.geojson").delete()
+        //output geojson
+        new File("/home/sachin/tmp/world.geojson").delete()
         GeoJSONWriter writer = new GeoJSONWriter()
-        writer.write(layer, new File("/home/sachin/world.geojson"))
+        writer.write(layer, new File("/home/sachin/tmp/world.geojson"))
 
         //layer.toGMLFile(new File("/home/sachin/AU_ID_EEZ_LINE_TREATY.gml"))
         //GmlWriter writer = new GmlWriter()

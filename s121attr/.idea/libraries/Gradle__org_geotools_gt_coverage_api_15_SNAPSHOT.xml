@@ -1,11 +1,11 @@
 <component name="libraryTable">
   <library name="Gradle: org.geotools:gt-coverage-api:15-SNAPSHOT">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.geotools/gt-coverage-api/15-SNAPSHOT/4dd54666df1da35bf2e16ddc9113213744ccbe1b/gt-coverage-api-15-SNAPSHOT.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.geotools/gt-coverage-api/15-SNAPSHOT/f8e71e271d31f937390fd7d35871d297f130fdcb/gt-coverage-api-15-SNAPSHOT.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.geotools/gt-coverage-api/15-SNAPSHOT/34981d5e74cd7a0446f25688ad9751cdafc7057e/gt-coverage-api-15-SNAPSHOT-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.geotools/gt-coverage-api/15-SNAPSHOT/928bac3b90dfb69893c289e5419e319c97d8148c/gt-coverage-api-15-SNAPSHOT-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
