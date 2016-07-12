@@ -12,9 +12,9 @@ buildscript {
 apply plugin: 'groovy'
 apply plugin: 'java'
 apply plugin: 'application'
-mainClassName = "Main"
 apply plugin: 'com.github.johnrengelman.shadow'
 
+mainClassName = "org.sopac.Attrib"
 sourceCompatibility = 1.8
 
 repositories {

@@ -1,0 +1,4 @@
+#build artifact within intellij
+rm s121.jar
+javapackager -createjar -appclass sopac.Main -srcdir out/production/s121attrFX/ -classpath 'lib/*' -outfile s121.jar
+java -jar s121.jar

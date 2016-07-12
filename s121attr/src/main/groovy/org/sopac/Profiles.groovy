@@ -26,7 +26,6 @@ public class Profiles {
         baseline << "Object Name"
         baseline << "Nation"
         baseline << "Category of Baseline" //1: Normal baseline 2: Straight baseline 3: Archipelagic baseline 4: River closing line 5: Bay closing line
-        baseline << "Object Name"
         baseline << "National Object Name"
         baseline << "Point Type"
         baseline << "Source Horizontal Reference System"
@@ -49,7 +48,6 @@ public class Profiles {
         limits << "Object Name"
         limits << "Nation"
         limits << "Category of Maritime Zone or Limit" //1: internal waters 2:  archipelagic waters 3: territorial sea 4: contiguous zone 5: exclusive economic zone 6: continental shelf
-        limits << "Object Name"
         limits << "National Object Name"
         limits << "Point Type"
         limits << "Source Horizontal Reference System"
@@ -72,7 +70,6 @@ public class Profiles {
         boundaries << "Object Name"
         boundaries << "Nation"
         boundaries << "Category of Boundary" //1: Delimitation
-        boundaries << "Object Name"
         boundaries << "National Object Name"
         boundaries << "States Party"
         boundaries << "Vertical Jurisdiction"
@@ -123,6 +120,7 @@ public class Profiles {
         categories.put("ASB", "Archipelagic Baseline")
         categories.put("RCL", "River Closing Line")
         categories.put("BCL", "Bay Closing Line")
+        categories.put("TSB", "Territorial Sea Baseline")
 
         categories.put("IWZ", "Internal Water Zone")
         categories.put("AWZ", "Archipelagic Water Zone")
@@ -138,6 +136,7 @@ public class Profiles {
         profileCategoryBaseline << "ASB"
         profileCategoryBaseline << "RCL"
         profileCategoryBaseline << "BCL"
+        profileCategoryBaseline << "TSB"
 
         //profileCategoryLimits
         profileCategoryLimits << "IWZ"

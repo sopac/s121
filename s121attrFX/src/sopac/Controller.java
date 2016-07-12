@@ -14,6 +14,7 @@ import javafx.scene.text.Text;
 import javafx.stage.DirectoryChooser;
 import javafx.stage.FileChooser;
 import javafx.stage.Stage;
+import org.sopac.Attrib;
 import org.sopac.Profiles;
 
 import javax.annotation.Resources;
@@ -102,11 +103,17 @@ public class Controller implements Initializable {
 
 
     public void process(ActionEvent ae) {
-        Alert alert = new Alert(Alert.AlertType.ERROR);
-        alert.setTitle("Error Dialog");
-        alert.setHeaderText("Processing Error");
-        alert.setContentText("Zero or Malformed Shapefiles Found in Folder!");
+        Attrib attrib = new Attrib();
+        int count = attrib.process(textPath.getText(), textOutput.getText(), comboProfile.getSelectionModel().getSelectedItem().toString(), false);
+
+        Alert alert = new Alert(Alert.AlertType.CONFIRMATION);
+        alert.setTitle("Processing Complete");
+        alert.setHeaderText("Processing Complete");
+        alert.setContentText(String.valueOf(count ) + " shapefiles processed to GeoJSON, please browse to " + textOutput.getText() + "\n\n");
+        alert.getDialogPane().setMinHeight(Region.USE_PREF_SIZE);
+        alert.getDialogPane().setMinWidth(550);
         alert.showAndWait();
+
     }
 
     public void initialize(URL location, ResourceBundle rb) {
@@ -119,5 +126,10 @@ public class Controller implements Initializable {
                 );
         comboProfile.setItems(options);
         comboProfile.getSelectionModel().clearAndSelect(0);
+
+        textPath.setText("/home/sachin/Projects/maritime_boundaries_FFA_0_360/SPC_PROJECT_MEMBER_COUNTRIES/");
+        textOutput.setText("/home/sachin/tmp/out/");
+
+
     }
 }
