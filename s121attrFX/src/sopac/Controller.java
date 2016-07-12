@@ -1,14 +1,14 @@
 package sopac;
 
+import javafx.application.Platform;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
+import javafx.concurrent.Task;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.Parent;
-import javafx.scene.control.Alert;
-import javafx.scene.control.ComboBox;
-import javafx.scene.control.TextField;
+import javafx.scene.control.*;
 import javafx.scene.layout.Region;
 import javafx.scene.text.Text;
 import javafx.stage.DirectoryChooser;
@@ -33,6 +33,12 @@ public class Controller implements Initializable {
 
     @FXML
     TextField textOutput;
+
+    @FXML
+    ProgressBar progressBar;
+
+    @FXML
+    Button btnProcess;
 
     //custom
     public void close(ActionEvent ae) {
@@ -103,16 +109,46 @@ public class Controller implements Initializable {
 
 
     public void process(ActionEvent ae) {
-        Attrib attrib = new Attrib();
-        int count = attrib.process(textPath.getText(), textOutput.getText(), comboProfile.getSelectionModel().getSelectedItem().toString(), false);
 
-        Alert alert = new Alert(Alert.AlertType.CONFIRMATION);
-        alert.setTitle("Processing Complete");
-        alert.setHeaderText("Processing Complete");
-        alert.setContentText(String.valueOf(count ) + " shapefiles processed to GeoJSON, please browse to " + textOutput.getText() + "\n\n");
-        alert.getDialogPane().setMinHeight(Region.USE_PREF_SIZE);
-        alert.getDialogPane().setMinWidth(550);
-        alert.showAndWait();
+        if (textPath.getText().trim().equals("")){
+            return;
+        }
+
+        if (textOutput.getText().trim().equals("")){
+            return;
+        }
+
+        progressBar.setProgress(-1);
+        btnProcess.setDisable(true);
+
+        Task<Integer> task = new Task<Integer>() {
+            @Override
+            protected Integer call() throws Exception {
+                Attrib attrib = new Attrib();
+                int count = attrib.process(textPath.getText(), textOutput.getText(), comboProfile.getSelectionModel().getSelectedItem().toString(), false);
+
+                Platform.runLater(new Runnable() {
+                    @Override
+                    public void run() {
+                        progressBar.setProgress(100);
+                        Alert alert = new Alert(Alert.AlertType.CONFIRMATION, "", ButtonType.OK);
+                        alert.setTitle("Processing Complete");
+                        alert.setHeaderText("Processing Complete");
+                        alert.setContentText(String.valueOf(count) + " shapefiles processed to GeoJSON, please browse to " + textOutput.getText() + "\n\n");
+                        alert.getDialogPane().setMinHeight(Region.USE_PREF_SIZE);
+                        alert.getDialogPane().setMinWidth(550);
+                        alert.showAndWait();
+                        btnProcess.setDisable(false);
+                    }
+                });
+                return count;
+            }
+        };
+
+        Thread th = new Thread(task);
+        th.setDaemon(true);
+        th.start();
+
 
     }
 
@@ -127,8 +163,8 @@ public class Controller implements Initializable {
         comboProfile.setItems(options);
         comboProfile.getSelectionModel().clearAndSelect(0);
 
-        textPath.setText("/home/sachin/Projects/maritime_boundaries_FFA_0_360/SPC_PROJECT_MEMBER_COUNTRIES/");
-        textOutput.setText("/home/sachin/tmp/out/");
+        //textPath.setText("/home/sachin/Projects/maritime_boundaries_FFA_0_360/test/");
+        //textOutput.setText("/home/sachin/tmp/out/");
 
 
     }

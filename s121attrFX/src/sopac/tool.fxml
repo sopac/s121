@@ -4,6 +4,7 @@
 <?import javafx.scene.control.CheckBox?>
 <?import javafx.scene.control.ComboBox?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
@@ -37,10 +38,11 @@
             <Font name="System Bold" size="13.0" />
          </font></Button>
       <Button fx:id="btnClose" layoutX="721.0" layoutY="289.0" mnemonicParsing="false" onAction="#close" prefHeight="26.0" prefWidth="68.0" text="Close" />
-      <Label layoutX="19.0" layoutY="294.0" text="© 2016, Geoscience Division, Pacific Community (SPC)" />
+      <Label layoutX="19.0" layoutY="294.0" text="©2016, Geoscience Division, Pacific Community (SPC)" />
       <Button fx:id="btnHelp" layoutX="517.0" layoutY="190.0" mnemonicParsing="false" onAction="#help" text="?" />
       <Label alignment="CENTER_RIGHT" layoutX="45.0" layoutY="157.0" prefHeight="16.0" prefWidth="205.0" text="Folder for GeoJSON Output : " textAlignment="RIGHT" />
       <TextField fx:id="textOutput" layoutX="266.0" layoutY="152.0" prefHeight="26.0" prefWidth="443.0" />
       <Button fx:id="btnBrowse2" layoutX="725.0" layoutY="152.0" mnemonicParsing="false" onAction="#browse2" text="..." />
+      <ProgressBar fx:id="progressBar" layoutX="382.0" layoutY="289.0" prefHeight="27.0" prefWidth="212.0" progress="0.0" />
    </children>
 </Pane>

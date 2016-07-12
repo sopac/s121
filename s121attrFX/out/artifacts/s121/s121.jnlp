@@ -222,7 +222,7 @@
     <jar href="protobuf-java-2.6.1.jar" size="596642" download="eager" />
     <jar href="protobuf-javanano-3.0.0-alpha-2.jar" size="47859" download="eager" />
     <jar href="quartz-2.2.0.jar" size="653761" download="eager" />
-    <jar href="s121.jar" size="7955" download="eager" />
+    <jar href="s121.jar" size="10366" download="eager" />
     <jar href="s121attr-1.0-SNAPSHOT.jar" size="46119" download="eager" />
     <jar href="slf4j-api-1.7.7.jar" size="29257" download="eager" />
     <jar href="slf4j-log4j12-1.6.4.jar" size="9748" download="eager" />
